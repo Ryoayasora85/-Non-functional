@@ -1,0 +1,2288 @@
+{
+  "S3BacketName": "cf-templates-1ikui1jr5x67a-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "sWPVDH/8DgN2RXw/q3OEf0Z76trhpC1ApHy8eqQ2cZfbEE3QOVf3daPluKsjMURkxIInDcMGVr8=",
+      "RequestId": "8A1CAB7D9F7C9AD7",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "sWPVDH/8DgN2RXw/q3OEf0Z76trhpC1ApHy8eqQ2cZfbEE3QOVf3daPluKsjMURkxIInDcMGVr8=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "8A1CAB7D9F7C9AD7",
+        "date": "Tue, 02 Jul 2019 06:54:58 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-686753218709",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "PcDOBwRqFS9byCagWG/4ULmWVC4w0F7noo3CxcUI0YLwRlaUEyHgtiS28SLGXDwp3bGyC7Z06Eg=",
+      "RequestId": "854FE22C2279190F",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "PcDOBwRqFS9byCagWG/4ULmWVC4w0F7noo3CxcUI0YLwRlaUEyHgtiS28SLGXDwp3bGyC7Z06Eg=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "854FE22C2279190F",
+        "date": "Tue, 02 Jul 2019 06:54:58 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "0SCq0UfAqEoHY0qDheYWN3e8jN/8adJ1HwRaeEyr3q8zQRkTDKKAH2hc7/7qRI6kN2c2Wpoo2fs=",
+      "RequestId": "EC746768380E71FA",
+      "HTTPHeaders": {
+        "x-amz-id-2": "0SCq0UfAqEoHY0qDheYWN3e8jN/8adJ1HwRaeEyr3q8zQRkTDKKAH2hc7/7qRI6kN2c2Wpoo2fs=",
+        "date": "Tue, 02 Jul 2019 06:54:58 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "EC746768380E71FA",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-htc01-app",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "rKZJ/StejIsxA3OwjVDTKqlGjZdZj/mzwwROqqvhX5UqLyFc/uT3uKn9sDkFbaebl72Z3Kw+U0U=",
+      "RequestId": "DCDC2B04AFF8C2C5",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "rKZJ/StejIsxA3OwjVDTKqlGjZdZj/mzwwROqqvhX5UqLyFc/uT3uKn9sDkFbaebl72Z3Kw+U0U=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "DCDC2B04AFF8C2C5",
+        "date": "Tue, 02 Jul 2019 06:54:58 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-aurora-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "wBYkvGNPwlAZmHAPHM8dhvuzjF+8WoVGXkYJc60KEUfoNMN578iBC3oWwepGbLLoeUQ1XJJbCb0=",
+      "RequestId": "A6A6586649915493",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "wBYkvGNPwlAZmHAPHM8dhvuzjF+8WoVGXkYJc60KEUfoNMN578iBC3oWwepGbLLoeUQ1XJJbCb0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "A6A6586649915493",
+        "date": "Tue, 02 Jul 2019 06:54:59 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "5Kt9WGHP2ydPgy9kHA+RFkkfcwn7HOZPbiDaGwuI17AaJdApRT1FemcAH3u6Ep+4vbRPKeGobUw=",
+      "RequestId": "AEFA2C3F478E1DE6",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "5Kt9WGHP2ydPgy9kHA+RFkkfcwn7HOZPbiDaGwuI17AaJdApRT1FemcAH3u6Ep+4vbRPKeGobUw=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "AEFA2C3F478E1DE6",
+        "date": "Tue, 02 Jul 2019 06:54:59 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-connected-api-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "1GvE1DYA8jP7+CAmjXygJAmTxVCcKRFAypcrffKFtKntYzKnGu0HgKU7hGVxkCHSGDB6trvdC1A=",
+      "RequestId": "E679ACC0A45E755B",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "1GvE1DYA8jP7+CAmjXygJAmTxVCcKRFAypcrffKFtKntYzKnGu0HgKU7hGVxkCHSGDB6trvdC1A=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "E679ACC0A45E755B",
+        "date": "Tue, 02 Jul 2019 06:55:00 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-connected-incar-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "hQeGjbYuTewKrpXbZkTskCybCWSYre9weXaOKcTiahMHTZZbML4I20mN32Z2GjgzRNfUfValntY=",
+      "RequestId": "E144460709DC9B89",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "hQeGjbYuTewKrpXbZkTskCybCWSYre9weXaOKcTiahMHTZZbML4I20mN32Z2GjgzRNfUfValntY=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "E144460709DC9B89",
+        "date": "Tue, 02 Jul 2019 06:55:00 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-connected-web-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "pGp/d4n4weg7LV9hlqra/SpRXvfvPW/yL3rJcIo+8bWZU9cBZflex3jVgEiCwj1gpipfWTU0fto=",
+      "RequestId": "FF0AA857FA93346A",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "pGp/d4n4weg7LV9hlqra/SpRXvfvPW/yL3rJcIo+8bWZU9cBZflex3jVgEiCwj1gpipfWTU0fto=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "FF0AA857FA93346A",
+        "date": "Tue, 02 Jul 2019 06:55:01 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "oWGdc9BvHRMcisksOjJvukrJkIBjZw4zhX0QMRLxmDCkEO8OSgAEqXUwFUDXzZ9lA2njGpPAT1I=",
+      "RequestId": "D2F7E8A7F3133606",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "oWGdc9BvHRMcisksOjJvukrJkIBjZw4zhX0QMRLxmDCkEO8OSgAEqXUwFUDXzZ9lA2njGpPAT1I=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "D2F7E8A7F3133606",
+        "date": "Tue, 02 Jul 2019 06:55:02 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-mypage-api-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "CAkuDNuIUgFFSFevRuRfW7++PfFbRADJkoKAkbJCPhOfX/9E3gRv1u+AXkHq9f/RffIoXWcd/jE=",
+      "RequestId": "6070FF1340547779",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "CAkuDNuIUgFFSFevRuRfW7++PfFbRADJkoKAkbJCPhOfX/9E3gRv1u+AXkHq9f/RffIoXWcd/jE=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "6070FF1340547779",
+        "date": "Tue, 02 Jul 2019 06:55:02 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-mypage-web-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "1yCqrfuyanK3wMUS31VRIBzb5V67ss1xEiqF5h2SXGHmWDPhAGrTC/6U/X3gZLudbwdLWrvJktA=",
+      "RequestId": "8614339E721C837E",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "1yCqrfuyanK3wMUS31VRIBzb5V67ss1xEiqF5h2SXGHmWDPhAGrTC/6U/X3gZLudbwdLWrvJktA=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "8614339E721C837E",
+        "date": "Tue, 02 Jul 2019 06:55:03 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-htc01-vpc-0eb272b8afeb17ae0",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "+u7x6eHKlXXtrxtye1tCBpU8hh3SROvVnwqwvvoN1Jtu6BjPdBMwD8UWzIyr6qg1coXeZKv91nE=",
+      "RequestId": "74E3FBCC194E29CD",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "+u7x6eHKlXXtrxtye1tCBpU8hh3SROvVnwqwvvoN1Jtu6BjPdBMwD8UWzIyr6qg1coXeZKv91nE=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "74E3FBCC194E29CD",
+        "date": "Tue, 02 Jul 2019 06:55:03 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-1b4pxcys68806-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "o62+NCsry8EikJN1jLhyElBtFalim5SY2wsk8MmEPN5kVYeHBBBOgoljlHRXxq72kkH4hUaQdRY=",
+      "RequestId": "AB73C8EC51F435F6",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "o62+NCsry8EikJN1jLhyElBtFalim5SY2wsk8MmEPN5kVYeHBBBOgoljlHRXxq72kkH4hUaQdRY=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "AB73C8EC51F435F6",
+        "date": "Tue, 02 Jul 2019 06:55:07 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-495152581087",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "GE7M9HElUsriGAr09jl1yTWJqegpkPoxw1Nm0Jx040dNBlSaIrDgwjm+kYashvU9UEfuCt72m7Q=",
+      "RequestId": "EC33CAEEDFCC42F0",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "GE7M9HElUsriGAr09jl1yTWJqegpkPoxw1Nm0Jx040dNBlSaIrDgwjm+kYashvU9UEfuCt72m7Q=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "EC33CAEEDFCC42F0",
+        "date": "Tue, 02 Jul 2019 06:55:11 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "hlVC5OkaTP+wpNTuFM4TiMr507ok4bilJKVruVV+7i7DAlFP7lrGR/So+V49DB1MRh/ajXomGLg=",
+      "RequestId": "196707CC8BDF09D3",
+      "HTTPHeaders": {
+        "x-amz-id-2": "hlVC5OkaTP+wpNTuFM4TiMr507ok4bilJKVruVV+7i7DAlFP7lrGR/So+V49DB1MRh/ajXomGLg=",
+        "date": "Tue, 02 Jul 2019 06:55:11 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "196707CC8BDF09D3",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-sub01-app",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "a6MuzKvlG7ZOodDAVDVMycgSTWVXVYcLchJbzpPMEO/Dn5DuKNIFqpDEbjB2FFMn1ptcW7SGlU4=",
+      "RequestId": "5073934BC5D6E429",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "a6MuzKvlG7ZOodDAVDVMycgSTWVXVYcLchJbzpPMEO/Dn5DuKNIFqpDEbjB2FFMn1ptcW7SGlU4=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "5073934BC5D6E429",
+        "date": "Tue, 02 Jul 2019 06:55:11 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-sub01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "gm4itOTiU7UQGKbP0E9NjRV7FMZQjdvV1p0a4ll/vSM8c9TLU3AumYl3LlTJ0M+MPh410bylRfE=",
+      "RequestId": "C0D77E542105AAA7",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "gm4itOTiU7UQGKbP0E9NjRV7FMZQjdvV1p0a4ll/vSM8c9TLU3AumYl3LlTJ0M+MPh410bylRfE=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "C0D77E542105AAA7",
+        "date": "Tue, 02 Jul 2019 06:55:12 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-sub01-codepipeline-app-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "yu6K+zHgs/Y32TpNlr30VO6YHScegHKmHpK0TAtFBfQSOHLedxgyLJxcZQsOJpsepuWFlmFtO/E=",
+      "RequestId": "6C50DC9A2CFBF6FA",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "yu6K+zHgs/Y32TpNlr30VO6YHScegHKmHpK0TAtFBfQSOHLedxgyLJxcZQsOJpsepuWFlmFtO/E=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "6C50DC9A2CFBF6FA",
+        "date": "Tue, 02 Jul 2019 06:55:12 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-sub01-codepipeline-lambda",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "o5JWPa64pBiA1JFP7SqOxD96FNqVy12dYXgYxhAXaD+5FpcvfGV8TL6woIVegqy5/ptvBF+gAJ0=",
+      "RequestId": "6CAEFDBA71B4113D",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "o5JWPa64pBiA1JFP7SqOxD96FNqVy12dYXgYxhAXaD+5FpcvfGV8TL6woIVegqy5/ptvBF+gAJ0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "6CAEFDBA71B4113D",
+        "date": "Tue, 02 Jul 2019 06:55:12 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-sub01-codepipeline-nginx-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "mxamQFNHkX9G9opb/+V04XBt0nNxvkEk6ebRgiHj3tc2cLOyYfFkzjqLfkLTM8qMnRVlJ7isp88=",
+      "RequestId": "96BC15800EEE8B0C",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "mxamQFNHkX9G9opb/+V04XBt0nNxvkEk6ebRgiHj3tc2cLOyYfFkzjqLfkLTM8qMnRVlJ7isp88=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "96BC15800EEE8B0C",
+        "date": "Tue, 02 Jul 2019 06:55:13 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-sub01-lambda-deploy",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "RgEh2PWxppUdAdgT7Kvt9vjRsajSNHW+yKU7dD3HL9YQRWyopy+lpjZrPGvmaf8XSupdmwl7A/8=",
+      "RequestId": "5003F80C55D242DE",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "RgEh2PWxppUdAdgT7Kvt9vjRsajSNHW+yKU7dD3HL9YQRWyopy+lpjZrPGvmaf8XSupdmwl7A/8=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "5003F80C55D242DE",
+        "date": "Tue, 02 Jul 2019 06:55:13 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-sub01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "2up8cJqBAGqmtRXVNQvr+trt2C8hrUd/I4bCIoz8NcF7aGyhCrPvw90OpB5h0cVzbFLuTNVbYXo=",
+      "RequestId": "6CE1B7F91911A6BE",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "2up8cJqBAGqmtRXVNQvr+trt2C8hrUd/I4bCIoz8NcF7aGyhCrPvw90OpB5h0cVzbFLuTNVbYXo=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "6CE1B7F91911A6BE",
+        "date": "Tue, 02 Jul 2019 06:55:14 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-sub01-vpc-058510e58ca2cbcfd",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "C+V6LmLlnvzqYEliZc16B8vRC0B+fssDJ23gTJEmJY6ML9tvM/TSJFyv5y1A7U15mamVrbg28i0=",
+      "RequestId": "48414788C5C6F1B2",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "C+V6LmLlnvzqYEliZc16B8vRC0B+fssDJ23gTJEmJY6ML9tvM/TSJFyv5y1A7U15mamVrbg28i0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "48414788C5C6F1B2",
+        "date": "Tue, 02 Jul 2019 06:55:14 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-1j4pn9504a501-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "cdnwsvsiQmAp2CEt0RNEctHH2Hy1HODCMeIFavppgOq1VwDcdoAKolElrEnUnIOh8jE1o+PCZvU=",
+      "RequestId": "E31B3D0002238A77",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "cdnwsvsiQmAp2CEt0RNEctHH2Hy1HODCMeIFavppgOq1VwDcdoAKolElrEnUnIOh8jE1o+PCZvU=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "E31B3D0002238A77",
+        "date": "Tue, 02 Jul 2019 06:55:18 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-339311866652",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "FScCshuc/QBhSR8AJ9DcfVxwXMUIOEjjYyOIEBMgey9IUy6K7fCQPWhOCGGCG8D8iY364GDE9xg=",
+      "RequestId": "704CF6230546A74F",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "FScCshuc/QBhSR8AJ9DcfVxwXMUIOEjjYyOIEBMgey9IUy6K7fCQPWhOCGGCG8D8iY364GDE9xg=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "704CF6230546A74F",
+        "date": "Tue, 02 Jul 2019 06:55:19 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "YmpfaGeDt7r0ooDdlZ7EoWwKecLOAFkyzBS6qEF7EIhIvBmp91/w7bzyuMut6BDHnXYkMfZc8lU=",
+      "RequestId": "AE55FAA96C045451",
+      "HTTPHeaders": {
+        "x-amz-id-2": "YmpfaGeDt7r0ooDdlZ7EoWwKecLOAFkyzBS6qEF7EIhIvBmp91/w7bzyuMut6BDHnXYkMfZc8lU=",
+        "date": "Tue, 02 Jul 2019 06:55:19 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "AE55FAA96C045451",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-cer01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "GY89LjDFB1LUhxflUKN3Z7BrfaiE4WirDnIloZ1QsjUYKp9phqc19vxlww05/QzQlrC27/dVaa4=",
+      "RequestId": "4B2A3B287159CB0D",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "GY89LjDFB1LUhxflUKN3Z7BrfaiE4WirDnIloZ1QsjUYKp9phqc19vxlww05/QzQlrC27/dVaa4=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "4B2A3B287159CB0D",
+        "date": "Tue, 02 Jul 2019 06:55:19 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-cer01-codepipeline-ver-auth",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "z0i4c7XBVln4OXutBXgQ/EJThdliiP6LEnDmtlK6w+m+kyaHQWrQNFgmhvaaF/A40XEejtPt4Cs=",
+      "RequestId": "A907CAC058E4D8E5",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "z0i4c7XBVln4OXutBXgQ/EJThdliiP6LEnDmtlK6w+m+kyaHQWrQNFgmhvaaF/A40XEejtPt4Cs=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "A907CAC058E4D8E5",
+        "date": "Tue, 02 Jul 2019 06:55:20 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-cer01-codepipeline-ver-cache-delete",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "Tom+mcP9UOGQEyNE6piBKvPQvB7avCjj1Yk6tzLw1MA+2JBDdx4zbPvPb735McD1hFIJp0alvFg=",
+      "RequestId": "83726B865E94E55F",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "Tom+mcP9UOGQEyNE6piBKvPQvB7avCjj1Yk6tzLw1MA+2JBDdx4zbPvPb735McD1hFIJp0alvFg=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "83726B865E94E55F",
+        "date": "Tue, 02 Jul 2019 06:55:20 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-cer01-codepipeline-ver-proxy",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "RtEHcpKYA4BFgG0mZo/aSDoB00kieVG0w0w6GoTiBw5DIO4w6dKQSklX+5Z+Ux88yXrVWC+hFyY=",
+      "RequestId": "A252669008CC5E81",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "RtEHcpKYA4BFgG0mZo/aSDoB00kieVG0w0w6GoTiBw5DIO4w6dKQSklX+5Z+Ux88yXrVWC+hFyY=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "A252669008CC5E81",
+        "date": "Tue, 02 Jul 2019 06:55:21 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-cer01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "tr7wl4+EwnY3sG2fIzsRZenkKJTaaBWKQYt0q8KdOF7/aTpHAZbMAbOBlbW02Q6NaJL3QMfc0M4=",
+      "RequestId": "B0DF77C014FB21CC",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "tr7wl4+EwnY3sG2fIzsRZenkKJTaaBWKQYt0q8KdOF7/aTpHAZbMAbOBlbW02Q6NaJL3QMfc0M4=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "B0DF77C014FB21CC",
+        "date": "Tue, 02 Jul 2019 06:55:21 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-cer01-vpc-0febde045cd37127a",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "Lg68nVx0KYZ8RPxlM47JViaYQUzI4rn0+vLKhDMhMpT+9AikAAOSeBodj1p/iHBJYCj6vHLmYoI=",
+      "RequestId": "21245545C0D97E65",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "Lg68nVx0KYZ8RPxlM47JViaYQUzI4rn0+vLKhDMhMpT+9AikAAOSeBodj1p/iHBJYCj6vHLmYoI=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "21245545C0D97E65",
+        "date": "Tue, 02 Jul 2019 06:55:22 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-1m3bdapj4v2a0-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "WVAE6+dY5KmIh6MPdgmANE7HCyH0Zm1Ztj03l2H0d8hJA+feNXo83n+bHztwjWwKmqNcI6mLMuU=",
+      "RequestId": "D9FBE4115EDCBF5D",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "WVAE6+dY5KmIh6MPdgmANE7HCyH0Zm1Ztj03l2H0d8hJA+feNXo83n+bHztwjWwKmqNcI6mLMuU=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "D9FBE4115EDCBF5D",
+        "date": "Tue, 02 Jul 2019 06:55:26 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-302986797475",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "aQpl5sIlYoLnCPkHfuXPq5rE9VuyppMrRSnPOPAGUMd5ce0Rhoc5+ZFTfHexYWQUeY56Bx4JkDo=",
+      "RequestId": "78D5529DB26DA91F",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "aQpl5sIlYoLnCPkHfuXPq5rE9VuyppMrRSnPOPAGUMd5ce0Rhoc5+ZFTfHexYWQUeY56Bx4JkDo=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "78D5529DB26DA91F",
+        "date": "Tue, 02 Jul 2019 06:55:26 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "kFzey2OCxFj+sk7sQBuwWcVLHSPfCV4nd7CySToZMNQ2NT97B3JVMh+hI/4GeGRprKXGw7IMbtw=",
+      "RequestId": "8C09A731C8CA2410",
+      "HTTPHeaders": {
+        "x-amz-id-2": "kFzey2OCxFj+sk7sQBuwWcVLHSPfCV4nd7CySToZMNQ2NT97B3JVMh+hI/4GeGRprKXGw7IMbtw=",
+        "date": "Tue, 02 Jul 2019 06:55:26 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "8C09A731C8CA2410",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-des01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "odLGFDNlMXxJaubhh4k9DEioIcjPB8zQFZabeDlO3ozcMRD5ZoKfuFTSIHn9vhIfEeDo/f90/Wk=",
+      "RequestId": "AE733DA6A14C94A3",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "odLGFDNlMXxJaubhh4k9DEioIcjPB8zQFZabeDlO3ozcMRD5ZoKfuFTSIHn9vhIfEeDo/f90/Wk=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "AE733DA6A14C94A3",
+        "date": "Tue, 02 Jul 2019 06:55:27 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-des01-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "48kPafeh6uuUj7sne6HTVd8dacG0XwzCumrFzwFTqaRwY7Xk+P13ysu3k55m1OxQPL9tSNyOnrw=",
+      "RequestId": "C8E2BACF27758C82",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "48kPafeh6uuUj7sne6HTVd8dacG0XwzCumrFzwFTqaRwY7Xk+P13ysu3k55m1OxQPL9tSNyOnrw=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "C8E2BACF27758C82",
+        "date": "Tue, 02 Jul 2019 06:55:27 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-des01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "UUTPuIDrRBJsDoHFheAi6+9to4X95Cqfz4H9WwVT8AReBAjNcLq6GnzONrVgr5YoS9hwONDqHwY=",
+      "RequestId": "7CFD188A2310942A",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "UUTPuIDrRBJsDoHFheAi6+9to4X95Cqfz4H9WwVT8AReBAjNcLq6GnzONrVgr5YoS9hwONDqHwY=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "7CFD188A2310942A",
+        "date": "Tue, 02 Jul 2019 06:55:29 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-des01-vpc-08eaba47b27f9fbd1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "4QobmQDaKt29AgggP/82T/7/En+z6q84JgUWNAN2suI6Dw0CESQASorj6gRy+cCWCpljQjR0MYE=",
+      "RequestId": "5BA10ABB8AE6815B",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "4QobmQDaKt29AgggP/82T/7/En+z6q84JgUWNAN2suI6Dw0CESQASorj6gRy+cCWCpljQjR0MYE=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "5BA10ABB8AE6815B",
+        "date": "Tue, 02 Jul 2019 06:55:30 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-1d60g9tlj73k1-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "bKVRG4qdDX7/iOuINZf1Byu+dQb0YHNBbbvIyt1aksEPndOEhbUO6DzOuejD/9wARsaInNfff0w=",
+      "RequestId": "01E0EE68056C9364",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "bKVRG4qdDX7/iOuINZf1Byu+dQb0YHNBbbvIyt1aksEPndOEhbUO6DzOuejD/9wARsaInNfff0w=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "01E0EE68056C9364",
+        "date": "Tue, 02 Jul 2019 06:55:34 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-859823971378",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "N0zPqdJY/SlavI+d9WWQCOSF5YyvcLYLj7oOlpVXqOCgPcJKcnTEK2Yj4DEIWvpNmXVzkLeI1J0=",
+      "RequestId": "AAFF734138817F28",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "N0zPqdJY/SlavI+d9WWQCOSF5YyvcLYLj7oOlpVXqOCgPcJKcnTEK2Yj4DEIWvpNmXVzkLeI1J0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "AAFF734138817F28",
+        "date": "Tue, 02 Jul 2019 06:55:35 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "py/VLU5ic/dVKvPGnDe2w3Yg8BGvgsRFR6MlngnjTzmMp639egAM1PYAZZfQEd7s0pBNfXiPVhk=",
+      "RequestId": "096D0E89F9D93F87",
+      "HTTPHeaders": {
+        "x-amz-id-2": "py/VLU5ic/dVKvPGnDe2w3Yg8BGvgsRFR6MlngnjTzmMp639egAM1PYAZZfQEd7s0pBNfXiPVhk=",
+        "date": "Tue, 02 Jul 2019 06:55:34 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "096D0E89F9D93F87",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-agw01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "MjvKIZ3J8kg5OJANwiEIw1y8XO+d/MLyyhxJOjiHNvTWGWAuy9rdH6o1s3YhrcfejU1e4+hv/c8=",
+      "RequestId": "74BC00E878E1BE71",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "MjvKIZ3J8kg5OJANwiEIw1y8XO+d/MLyyhxJOjiHNvTWGWAuy9rdH6o1s3YhrcfejU1e4+hv/c8=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "74BC00E878E1BE71",
+        "date": "Tue, 02 Jul 2019 06:55:35 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-agw01-codepipeline-connected-app-gateway",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "FnPQSWJcGj/yRPb/FQCacM0yApLLYn94YU1yoUKg7bH5n6A7fd5KusMIgGjuQOQtSsIgKbLw9/4=",
+      "RequestId": "A423D67C950C2492",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "FnPQSWJcGj/yRPb/FQCacM0yApLLYn94YU1yoUKg7bH5n6A7fd5KusMIgGjuQOQtSsIgKbLw9/4=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "A423D67C950C2492",
+        "date": "Tue, 02 Jul 2019 06:55:36 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-agw01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "/cBm5e0Se6ErKAIlFX9I/vg4hutDN2N2llKf/GE3CoN9uSlRgvvE+DXd4obvSJiMhsdRxTUSR3Q=",
+      "RequestId": "57199EFEB897D357",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "/cBm5e0Se6ErKAIlFX9I/vg4hutDN2N2llKf/GE3CoN9uSlRgvvE+DXd4obvSJiMhsdRxTUSR3Q=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "57199EFEB897D357",
+        "date": "Tue, 02 Jul 2019 06:55:36 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-agw01-vpc-05a60a15640823393",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "ZkwWSD25agp18c5wA7bm6Arb7IlhhjmqRA/eZ3Y9ItUsx5Zba6CB/ofpd9YPX66IjnvLnDv894k=",
+      "RequestId": "9BBF6040B30464E0",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "ZkwWSD25agp18c5wA7bm6Arb7IlhhjmqRA/eZ3Y9ItUsx5Zba6CB/ofpd9YPX66IjnvLnDv894k=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "9BBF6040B30464E0",
+        "date": "Tue, 02 Jul 2019 06:55:37 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-1e239di4oowfm-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "XRH6NIiaiCSm9Nwe5TQqJ/fSlj9nWBFLM1F8EUa0ebMuV3X01wT8aEtmKYMu6FUGbhJrgF3T4gQ=",
+      "RequestId": "FAF303647752F4DD",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "XRH6NIiaiCSm9Nwe5TQqJ/fSlj9nWBFLM1F8EUa0ebMuV3X01wT8aEtmKYMu6FUGbhJrgF3T4gQ=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "FAF303647752F4DD",
+        "date": "Tue, 02 Jul 2019 06:55:40 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-497617980196",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "zdOuWbyD5hwFaZuix5uZgFre6etZBBB7PZQIEwr4TdPs4obwjFdeVN5p5LvrFugs3QoJiWn1CSw=",
+      "RequestId": "55BD7A127CCE420B",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "zdOuWbyD5hwFaZuix5uZgFre6etZBBB7PZQIEwr4TdPs4obwjFdeVN5p5LvrFugs3QoJiWn1CSw=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "55BD7A127CCE420B",
+        "date": "Tue, 02 Jul 2019 06:55:41 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "Hmt7Li6B6m9wj8BIBJ/WIeZsXrGYAkqSftWCL14DmubwnqZD7hXmC3h2cO3ec9TEObmLaEO2XZI=",
+      "RequestId": "112A059811E8EC6E",
+      "HTTPHeaders": {
+        "x-amz-id-2": "Hmt7Li6B6m9wj8BIBJ/WIeZsXrGYAkqSftWCL14DmubwnqZD7hXmC3h2cO3ec9TEObmLaEO2XZI=",
+        "date": "Tue, 02 Jul 2019 06:55:41 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "112A059811E8EC6E",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "codepipeline-ap-northeast-1-593942654359",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "C9lUVolhi24phdDEI1lcfm46AlGigKf+qMDNt1/VnbhgHGjf2WnVaGGmCGlqPMrUVUKbmW4jnn4=",
+      "RequestId": "5CFDE4C4FA0C8C9C",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "C9lUVolhi24phdDEI1lcfm46AlGigKf+qMDNt1/VnbhgHGjf2WnVaGGmCGlqPMrUVUKbmW4jnn4=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "5CFDE4C4FA0C8C9C",
+        "date": "Tue, 02 Jul 2019 06:55:41 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "daq-ver-jp-s3-accesslog",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "m5mkUfsje7v2VB6pUtH1MUn6M093qkUXySoh2tmBouv9HjTc6GnkN3VFjcGTd45DGL01vRS00pI=",
+      "RequestId": "D9707DDCB097609B",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "m5mkUfsje7v2VB6pUtH1MUn6M093qkUXySoh2tmBouv9HjTc6GnkN3VFjcGTd45DGL01vRS00pI=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "D9707DDCB097609B",
+        "date": "Tue, 02 Jul 2019 06:55:42 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "daq-ver-jp-s3-archivefile",
+  "AccessLogging": {
+    "LoggingEnabled": {
+      "TargetPrefix": "daq-ver-jp-s3-archivefile/",
+      "TargetBucket": "daq-ver-jp-s3-accesslog"
+    },
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "xtY03R1XoyPY3rWtSFI2qbifwJ0nqD0i+r5WzoSjDhAhlY33+XIdAMUtYlkUZ67sBwIKwyN7Kkc=",
+      "RequestId": "8AAC0FAE1399D5C2",
+      "HTTPHeaders": {
+        "x-amz-id-2": "xtY03R1XoyPY3rWtSFI2qbifwJ0nqD0i+r5WzoSjDhAhlY33+XIdAMUtYlkUZ67sBwIKwyN7Kkc=",
+        "server": "AmazonS3",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "8AAC0FAE1399D5C2",
+        "date": "Tue, 02 Jul 2019 06:55:43 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Filter": {
+          "Prefix": "glacier"
+        },
+        "Status": "Enabled",
+        "Transitions": [
+          {
+            "Days": 1,
+            "StorageClass": "GLACIER"
+          }
+        ],
+        "Expiration": {
+          "Days": 365
+        },
+        "ID": "GlacierRule"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "7Iw3UNXvO/aSxaEl324o2R5ZhR2xTZl+tkG1OYxT9tb8js0wa0BFQitkpqwHms3bbzRVcHzGDyo=",
+      "RequestId": "36BA4AD7C0679507",
+      "HTTPHeaders": {
+        "x-amz-id-2": "7Iw3UNXvO/aSxaEl324o2R5ZhR2xTZl+tkG1OYxT9tb8js0wa0BFQitkpqwHms3bbzRVcHzGDyo=",
+        "date": "Tue, 02 Jul 2019 06:55:43 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "36BA4AD7C0679507",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "daq-ver-jp-s3-artifact",
+  "AccessLogging": {
+    "LoggingEnabled": {
+      "TargetPrefix": "daq-ver-jp-s3-artifact/",
+      "TargetBucket": "daq-ver-jp-s3-accesslog"
+    },
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "kSuQ6/1dNb7R+SrAj66m+4PcMCjYaI7sEO8GciTZyyi1ruYpQSfxyK1gASD7n/iwxiTumCNwwA4=",
+      "RequestId": "094F46D152CD4EFD",
+      "HTTPHeaders": {
+        "x-amz-id-2": "kSuQ6/1dNb7R+SrAj66m+4PcMCjYaI7sEO8GciTZyyi1ruYpQSfxyK1gASD7n/iwxiTumCNwwA4=",
+        "server": "AmazonS3",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "094F46D152CD4EFD",
+        "date": "Tue, 02 Jul 2019 06:55:44 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "daq-ver-jp-s3-template",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "2oyUU2cs9Ce45qo0zsj5QhZ8sd3Af+YI8JvtFTnw8wZb8XJcRWthaXMQLrIY6xqVkRZZEoE2X8s=",
+      "RequestId": "70AF5784A8BE0E4B",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "2oyUU2cs9Ce45qo0zsj5QhZ8sd3Af+YI8JvtFTnw8wZb8XJcRWthaXMQLrIY6xqVkRZZEoE2X8s=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "70AF5784A8BE0E4B",
+        "date": "Tue, 02 Jul 2019 06:55:45 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-vdm01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "vFUFfuZlHnVQrXySUIdeVmmVie8yOqAsD0NqQhBd37Xadvg+rOQHuBOzL2ornEa6H37jSxnH0b8=",
+      "RequestId": "0EC748D9F295F975",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "vFUFfuZlHnVQrXySUIdeVmmVie8yOqAsD0NqQhBd37Xadvg+rOQHuBOzL2ornEa6H37jSxnH0b8=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "0EC748D9F295F975",
+        "date": "Tue, 02 Jul 2019 06:55:45 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-vdm01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "oddPEt4yNV1VT1aBCr3xKgmDqUiZNm29V9Pd+ku599H5p7Z+nyODyZ2I0R4FAEg+E1uq0yhzxS8=",
+      "RequestId": "67F4AF36F4B9C5C6",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "oddPEt4yNV1VT1aBCr3xKgmDqUiZNm29V9Pd+ku599H5p7Z+nyODyZ2I0R4FAEg+E1uq0yhzxS8=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "67F4AF36F4B9C5C6",
+        "date": "Tue, 02 Jul 2019 06:55:46 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-vdm01-vpc-012f249828c3bd2c8",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "cz/VwI4x8lanoxgU8q3nDWzE1eN/2rnHdttviF7VPjvR6fljw2mlNguBRE7uCM2vn7xkJiKJzKA=",
+      "RequestId": "9C47B05238C94794",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "cz/VwI4x8lanoxgU8q3nDWzE1eN/2rnHdttviF7VPjvR6fljw2mlNguBRE7uCM2vn7xkJiKJzKA=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "9C47B05238C94794",
+        "date": "Tue, 02 Jul 2019 06:55:46 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-cy60zqzaytrx-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "55oHR6M1DoqyOskrWMCp2GVT8b2nf25lPzkPuzMSksGzZ/m3yfCCUQlnaz3vRPAgDxG6X4V2+5I=",
+      "RequestId": "F07BE980C760F948",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "55oHR6M1DoqyOskrWMCp2GVT8b2nf25lPzkPuzMSksGzZ/m3yfCCUQlnaz3vRPAgDxG6X4V2+5I=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "F07BE980C760F948",
+        "date": "Tue, 02 Jul 2019 06:55:50 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-932204081418",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "nRk80MQf8irdLv2An0mcO/WtR7EE6bHQrhH5vR5pDlXTgZu7uFMVWjpwg5TSa0GF0H3hqwchkkw=",
+      "RequestId": "C3D81F9191D701F6",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "nRk80MQf8irdLv2An0mcO/WtR7EE6bHQrhH5vR5pDlXTgZu7uFMVWjpwg5TSa0GF0H3hqwchkkw=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "C3D81F9191D701F6",
+        "date": "Tue, 02 Jul 2019 06:55:51 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "eVSG6QvbeFsVE21ROI9vMPmrJEu6GCWggqcDYc2AfTnM2bnJal9Z8dz1k4M7le9wNFZBVCy9FhE=",
+      "RequestId": "F7D25058B95C1E7B",
+      "HTTPHeaders": {
+        "x-amz-id-2": "eVSG6QvbeFsVE21ROI9vMPmrJEu6GCWggqcDYc2AfTnM2bnJal9Z8dz1k4M7le9wNFZBVCy9FhE=",
+        "date": "Tue, 02 Jul 2019 06:55:51 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "F7D25058B95C1E7B",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-wfi01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "Q5fUuSD2KFPKlw2w7ql1Kg25ODnpD6jC4cN+/bIX3eivd3JxRxHG1Gs+mTjDxdBihaFF9YnJ4CQ=",
+      "RequestId": "67B3B57FB532C07F",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "Q5fUuSD2KFPKlw2w7ql1Kg25ODnpD6jC4cN+/bIX3eivd3JxRxHG1Gs+mTjDxdBihaFF9YnJ4CQ=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "67B3B57FB532C07F",
+        "date": "Tue, 02 Jul 2019 06:55:51 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-wfi01-data-monitoring-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "6Uak2MkqtDsut2SM9p8tYhz3BA9fQ6e0tW/H8RhTIXrIj7CfwVOOMXLxa6rUob0MlFPfqy8yy/w=",
+      "RequestId": "5653DD1F47ADABAC",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "6Uak2MkqtDsut2SM9p8tYhz3BA9fQ6e0tW/H8RhTIXrIj7CfwVOOMXLxa6rUob0MlFPfqy8yy/w=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "5653DD1F47ADABAC",
+        "date": "Tue, 02 Jul 2019 06:55:52 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-wfi01-jasper-control-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "8leDmNQ3no/iN3DY2M1/mQ995X1lJ5b/CGQ2jEnyKhjlhMNsMsNDx14XwaQhEghfPFXwNxEx7H0=",
+      "RequestId": "276BD63C1ACAD49D",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "8leDmNQ3no/iN3DY2M1/mQ995X1lJ5b/CGQ2jEnyKhjlhMNsMsNDx14XwaQhEghfPFXwNxEx7H0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "276BD63C1ACAD49D",
+        "date": "Tue, 02 Jul 2019 06:55:52 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-wfi01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "1tZ1665AiOfrY6zzcp65kdaIatD04BbPfohiRz/mkfIBs7T45DtlfMq6RuizlwxYG5OMloGtB4M=",
+      "RequestId": "97220067B899B9F7",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "1tZ1665AiOfrY6zzcp65kdaIatD04BbPfohiRz/mkfIBs7T45DtlfMq6RuizlwxYG5OMloGtB4M=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "97220067B899B9F7",
+        "date": "Tue, 02 Jul 2019 06:55:53 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-wfi01-nginx-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "rBrlwtz457S1c4kYuoRq01m2JLRea2yqPNM5qQLy7HPiqT8WwW7vJ1db/WXHKCciH/ueFSU6ZhU=",
+      "RequestId": "BFD0F025B833AE89",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "rBrlwtz457S1c4kYuoRq01m2JLRea2yqPNM5qQLy7HPiqT8WwW7vJ1db/WXHKCciH/ueFSU6ZhU=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "BFD0F025B833AE89",
+        "date": "Tue, 02 Jul 2019 06:55:53 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-wfi01-service-api-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "Gzs92WJGFgTgdu+WdAHwub/PTcqgvJ0XTlv8VOjCApAWpmoHua/rGvKGuHfqEZzj+zdjv0DyChA=",
+      "RequestId": "0E5C409EDF7D82B4",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "Gzs92WJGFgTgdu+WdAHwub/PTcqgvJ0XTlv8VOjCApAWpmoHua/rGvKGuHfqEZzj+zdjv0DyChA=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "0E5C409EDF7D82B4",
+        "date": "Tue, 02 Jul 2019 06:55:54 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-wfi01-vehicle-api-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "QXGryO0iil4e0M3/gvIMDEjt/5MsGWMPtnb/wDjHcpdouMskQL4YKUgJD0Fe0SgzqNXVy2yRUCg=",
+      "RequestId": "3EE33CA5A3C76633",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "QXGryO0iil4e0M3/gvIMDEjt/5MsGWMPtnb/wDjHcpdouMskQL4YKUgJD0Fe0SgzqNXVy2yRUCg=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "3EE33CA5A3C76633",
+        "date": "Tue, 02 Jul 2019 06:55:54 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-wfi01-vpc-00c8a80c4d73dd409",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "0Gue2mPnhWt4NDPR8XtcuE92KDuirL4W+PuA19+taQ6FG8zfNwUFy0Y0QI+vmrkJgwpW8GGVItI=",
+      "RequestId": "D31A641B04F77E4E",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "0Gue2mPnhWt4NDPR8XtcuE92KDuirL4W+PuA19+taQ6FG8zfNwUFy0Y0QI+vmrkJgwpW8GGVItI=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "D31A641B04F77E4E",
+        "date": "Tue, 02 Jul 2019 06:55:55 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-ju1r1bk8k0ym-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "qbE2jNxMlr/t1fMf9tLHIJySyRq4gmRp2wSHOJqE1ZhEEukHSJ/QVa1gp//R0kFyFRfvSaTyYRA=",
+      "RequestId": "DDF66E5C258D577F",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "qbE2jNxMlr/t1fMf9tLHIJySyRq4gmRp2wSHOJqE1ZhEEukHSJ/QVa1gp//R0kFyFRfvSaTyYRA=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "DDF66E5C258D577F",
+        "date": "Tue, 02 Jul 2019 06:55:59 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-131000633826",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "dPNkPyR2DKat4SfMPHsHWcR0fiufNQ9jDGuoXRLBWkUg1kTIDg9p/6cFdi4S/ddbhrGS8csnV84=",
+      "RequestId": "55C957EC487A64FE",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "dPNkPyR2DKat4SfMPHsHWcR0fiufNQ9jDGuoXRLBWkUg1kTIDg9p/6cFdi4S/ddbhrGS8csnV84=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "55C957EC487A64FE",
+        "date": "Tue, 02 Jul 2019 06:55:59 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "H/i8YWs9DTDKSmmdRshliGhqLkmXJDkStkIewANghjn01FW+UWBv909vhgRoFhzrqyic8/LhP7U=",
+      "RequestId": "A8E27805D4E1984C",
+      "HTTPHeaders": {
+        "x-amz-id-2": "H/i8YWs9DTDKSmmdRshliGhqLkmXJDkStkIewANghjn01FW+UWBv909vhgRoFhzrqyic8/LhP7U=",
+        "date": "Tue, 02 Jul 2019 06:55:59 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "A8E27805D4E1984C",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-esp01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "lb4MNieQa0LFTi//eFgVi/IqFsCV6+9XIXh/3bihxvbQceX6W4lCSAcgyyhJkdQhdYYfpMnpktM=",
+      "RequestId": "ED43E519306D25E8",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "lb4MNieQa0LFTi//eFgVi/IqFsCV6+9XIXh/3bihxvbQceX6W4lCSAcgyyhJkdQhdYYfpMnpktM=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "ED43E519306D25E8",
+        "date": "Tue, 02 Jul 2019 06:56:00 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-esp01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "0txO3E6MgoYnoxnoTmeADDHnY7lN4MbvwmFKE+6h+uFSS7OR1rYop/1k2AWAzuvNNc/Hxp/viZ8=",
+      "RequestId": "86EDE1986AB21C2B",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "0txO3E6MgoYnoxnoTmeADDHnY7lN4MbvwmFKE+6h+uFSS7OR1rYop/1k2AWAzuvNNc/Hxp/viZ8=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "86EDE1986AB21C2B",
+        "date": "Tue, 02 Jul 2019 06:56:01 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-esp01-vpc-0c31b49cd2709b354",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "lg5dTkPd2/AHxa8bjVP/YSV4wAhbEff7gMglf/PSPvr+BA9XqUYrfANWgolCh/D6CRHGv+9SQqo=",
+      "RequestId": "528838D2ADDDB5C7",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "lg5dTkPd2/AHxa8bjVP/YSV4wAhbEff7gMglf/PSPvr+BA9XqUYrfANWgolCh/D6CRHGv+9SQqo=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "528838D2ADDDB5C7",
+        "date": "Tue, 02 Jul 2019 06:56:02 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-export-cloudwatch-log",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "E99kdNkqTnKAqi59msWOWoCC3hiqWztNn4FMpcCQ0dwTrjATQpPFAsEcTYi9feyLoF3bvvR5WmU=",
+      "RequestId": "D56CE1DDB08EF0A9",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "E99kdNkqTnKAqi59msWOWoCC3hiqWztNn4FMpcCQ0dwTrjATQpPFAsEcTYi9feyLoF3bvvR5WmU=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "D56CE1DDB08EF0A9",
+        "date": "Tue, 02 Jul 2019 06:56:02 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-jp-s3-accesslogging",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "OCMkkpOpWk61HfDb+AwnY+svx530NQvhJtCrKh9nqldLwxfHYGLAaobhVdQVab/A6h13h2gPFp0=",
+      "RequestId": "4C444D5E3B54D59D",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "OCMkkpOpWk61HfDb+AwnY+svx530NQvhJtCrKh9nqldLwxfHYGLAaobhVdQVab/A6h13h2gPFp0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "4C444D5E3B54D59D",
+        "date": "Tue, 02 Jul 2019 06:56:02 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-jp-s3-artifact",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "ujxjORnA9nB0XHq84AGzGEduLcZ61S45eGpLosC78X1b3s9m/naG9kMYN6iQ5HX+PLoWGLkJTN4=",
+      "RequestId": "F7E93B5A1A0C3888",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "ujxjORnA9nB0XHq84AGzGEduLcZ61S45eGpLosC78X1b3s9m/naG9kMYN6iQ5HX+PLoWGLkJTN4=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "F7E93B5A1A0C3888",
+        "date": "Tue, 02 Jul 2019 06:56:05 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-jp-s3-configfile",
+  "AccessLogging": {
+    "LoggingEnabled": {
+      "TargetPrefix": "inv-ver-jp-s3-configfile/",
+      "TargetBucket": "inv-ver-jp-s3-accesslogging"
+    },
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "pkU8h38jvFlJ0t2ChN1tUv4j6ljRVYV35FlBi3Xzb9XOecRdFu3GAS8PPDUZP3uYSfxIoXeDDZw=",
+      "RequestId": "1A2D68C7A30EED79",
+      "HTTPHeaders": {
+        "x-amz-id-2": "pkU8h38jvFlJ0t2ChN1tUv4j6ljRVYV35FlBi3Xzb9XOecRdFu3GAS8PPDUZP3uYSfxIoXeDDZw=",
+        "server": "AmazonS3",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "1A2D68C7A30EED79",
+        "date": "Tue, 02 Jul 2019 06:56:07 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-jp-s3-dynamodbbackup",
+  "AccessLogging": {
+    "LoggingEnabled": {
+      "TargetPrefix": "inv-ver-jp-s3-dynamodbbackup/",
+      "TargetBucket": "inv-ver-jp-s3-accesslogging"
+    },
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "7nme7c+NZkAybV7Wp4F7koMlmFrQ5BDi/sdkJ3K4C2ktMHdUNaR4YXsni1hiC11LbutC0TJgFYo=",
+      "RequestId": "1FCFB399EAF3AF18",
+      "HTTPHeaders": {
+        "x-amz-id-2": "7nme7c+NZkAybV7Wp4F7koMlmFrQ5BDi/sdkJ3K4C2ktMHdUNaR4YXsni1hiC11LbutC0TJgFYo=",
+        "server": "AmazonS3",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "1FCFB399EAF3AF18",
+        "date": "Tue, 02 Jul 2019 06:56:07 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Filter": {
+          "Prefix": "glacier"
+        },
+        "Status": "Enabled",
+        "Transitions": [
+          {
+            "Days": 1,
+            "StorageClass": "GLACIER"
+          }
+        ],
+        "Expiration": {
+          "Days": 365
+        },
+        "ID": "GlacierRule"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "adNFYEUYy50FkCK8TOSSkDKKfe/TTnKWbm3ac3BW9MKnxQa+dwmbYjF1rOd7IXdme0Yp5ien6Us=",
+      "RequestId": "F2F0B0B52D12DBE8",
+      "HTTPHeaders": {
+        "x-amz-id-2": "adNFYEUYy50FkCK8TOSSkDKKfe/TTnKWbm3ac3BW9MKnxQa+dwmbYjF1rOd7IXdme0Yp5ien6Us=",
+        "date": "Tue, 02 Jul 2019 06:56:07 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "F2F0B0B52D12DBE8",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "cf-templates-hnvz0txf6gm1-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "NanfGGG1mwOUg08vrol59QOkoxYU9czTiJ47Gd5MJNxfTQE4kaax4T2RuZDHVIRt+9uVMa4kDeE=",
+      "RequestId": "88826E7DF40F7EA0",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "NanfGGG1mwOUg08vrol59QOkoxYU9czTiJ47Gd5MJNxfTQE4kaax4T2RuZDHVIRt+9uVMa4kDeE=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "88826E7DF40F7EA0",
+        "date": "Tue, 02 Jul 2019 06:56:11 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-604584103104",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "ZVO3Kek1YpNRp6m03I8lo9IeqaYSRh6CyYUHz049u2s/xWIdo4ghvjJXULwpssPPiyKerdBlHUQ=",
+      "RequestId": "E5375A229682E148",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "ZVO3Kek1YpNRp6m03I8lo9IeqaYSRh6CyYUHz049u2s/xWIdo4ghvjJXULwpssPPiyKerdBlHUQ=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "E5375A229682E148",
+        "date": "Tue, 02 Jul 2019 06:56:12 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "VmjBtM5cC4NabanBlsDKeTIciZ2FzdbjUiDuDIWUR88ZiixKi2/XsXyya+TrqrW/5jG3zy3ioRk=",
+      "RequestId": "0770D71A407BDC92",
+      "HTTPHeaders": {
+        "x-amz-id-2": "VmjBtM5cC4NabanBlsDKeTIciZ2FzdbjUiDuDIWUR88ZiixKi2/XsXyya+TrqrW/5jG3zy3ioRk=",
+        "date": "Tue, 02 Jul 2019 06:56:12 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "0770D71A407BDC92",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-rmt01-aurora-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "jFFZ+xr1w4EVi1ZeqZtfUwjZjwWSM+2SjxVI/zGO8F7ygt482jFEd6nldzOKSW16Of9tyexKs+0=",
+      "RequestId": "6F5D79C295677BEB",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "jFFZ+xr1w4EVi1ZeqZtfUwjZjwWSM+2SjxVI/zGO8F7ygt482jFEd6nldzOKSW16Of9tyexKs+0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "6F5D79C295677BEB",
+        "date": "Tue, 02 Jul 2019 06:56:12 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-rmt01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "cgOYXKMH3tbY00aTKvM/h70SxLlHKcbLFsulk0HiEtWLpNfC1rrtXwC0h+QUNr2H18vPocGWAHk=",
+      "RequestId": "86647AC87DB63B09",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "cgOYXKMH3tbY00aTKvM/h70SxLlHKcbLFsulk0HiEtWLpNfC1rrtXwC0h+QUNr2H18vPocGWAHk=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "86647AC87DB63B09",
+        "date": "Tue, 02 Jul 2019 06:56:13 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-rmt01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "CPhzb9Njuri9pEKTxet+5V8lm6GeMtRTCHH0GSnUPcdx6tusRSiBI9CIS5PJg2vcGtGNNkD5pAQ=",
+      "RequestId": "A3E1B1DF281FDDEE",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "CPhzb9Njuri9pEKTxet+5V8lm6GeMtRTCHH0GSnUPcdx6tusRSiBI9CIS5PJg2vcGtGNNkD5pAQ=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "A3E1B1DF281FDDEE",
+        "date": "Tue, 02 Jul 2019 06:56:13 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-rmt01-pub-api-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "7eMgtGE1T3R+8K3u5mGMS/fn/bQvGXwsLqO+EVtA1iK7V6jmHqZ8ZNieO2bHioHiPPMz9FXVoi8=",
+      "RequestId": "A3470F94C7C2A19F",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "7eMgtGE1T3R+8K3u5mGMS/fn/bQvGXwsLqO+EVtA1iK7V6jmHqZ8ZNieO2bHioHiPPMz9FXVoi8=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "A3470F94C7C2A19F",
+        "date": "Tue, 02 Jul 2019 06:56:14 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-rmt01-remote-app-api-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "us760gr18z04RKBxbL4XFQL9J/U9HaRHiWWL+br42Y1WMzJt6Sewa1IrfkdiuJzZ7stjzlnrZs0=",
+      "RequestId": "A2E1FEBA9A3D85BA",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "us760gr18z04RKBxbL4XFQL9J/U9HaRHiWWL+br42Y1WMzJt6Sewa1IrfkdiuJzZ7stjzlnrZs0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "A2E1FEBA9A3D85BA",
+        "date": "Tue, 02 Jul 2019 06:56:14 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-rmt01-vpc-00da09a13eebd5fbb",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "pceuvVSj/xH8KWtO7I99w3KJUiT304a8wg/DM1jhs2njRJvoEd5jxNYpcOUAYkXoC8qJj1lNakI=",
+      "RequestId": "CA07EEEE8554C8E6",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "pceuvVSj/xH8KWtO7I99w3KJUiT304a8wg/DM1jhs2njRJvoEd5jxNYpcOUAYkXoC8qJj1lNakI=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "CA07EEEE8554C8E6",
+        "date": "Tue, 02 Jul 2019 06:56:15 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-rmt01-web-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "gJ5M0FrrYKYhWTQBbIEgWqyK8iYXgp7HkrrJXU9pMlpEF49iF25+uHW4b9kLDjv1mueiNmWPK0o=",
+      "RequestId": "55E970C31C6E6F43",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "gJ5M0FrrYKYhWTQBbIEgWqyK8iYXgp7HkrrJXU9pMlpEF49iF25+uHW4b9kLDjv1mueiNmWPK0o=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "55E970C31C6E6F43",
+        "date": "Tue, 02 Jul 2019 06:56:16 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-1hts3b8s8b044-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "Cuc9csSNPOa7hCdmcq3BMurwZEpXZm6+DjOy7He86HexIc7ERPnkn49JDUiD8cQPl6BUeFAT+I4=",
+      "RequestId": "FB448BBEFC84CAD8",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "Cuc9csSNPOa7hCdmcq3BMurwZEpXZm6+DjOy7He86HexIc7ERPnkn49JDUiD8cQPl6BUeFAT+I4=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "FB448BBEFC84CAD8",
+        "date": "Tue, 02 Jul 2019 06:56:20 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-170541451228",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "+MvWK9ETHItd23BVJjmVhqAcWjUQV/RIGGTfvJAwrSjjr5mj7IazD5RPxhHvmd5QisN2lPlI2jw=",
+      "RequestId": "FBE6E5A4ED9E3EDA",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "+MvWK9ETHItd23BVJjmVhqAcWjUQV/RIGGTfvJAwrSjjr5mj7IazD5RPxhHvmd5QisN2lPlI2jw=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "FBE6E5A4ED9E3EDA",
+        "date": "Tue, 02 Jul 2019 06:56:20 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "gPr8wX+x9q0l5gwxOosMVFwa9+wdvKkPorUq9KBQWQyZ0dugYHDIfxpRL9APMI1j8KFVBjg44yg=",
+      "RequestId": "B83D50B5F1FC4187",
+      "HTTPHeaders": {
+        "x-amz-id-2": "gPr8wX+x9q0l5gwxOosMVFwa9+wdvKkPorUq9KBQWQyZ0dugYHDIfxpRL9APMI1j8KFVBjg44yg=",
+        "date": "Tue, 02 Jul 2019 06:56:20 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "B83D50B5F1FC4187",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-esw01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "cPbgc1IMMy+ooF2ESGPrKx7P5kqm83iURm11dpNnOUX7ShySOQegKtDbkbdW3uJuMrkXGH3T1wg=",
+      "RequestId": "542D986C5E873DD5",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "cPbgc1IMMy+ooF2ESGPrKx7P5kqm83iURm11dpNnOUX7ShySOQegKtDbkbdW3uJuMrkXGH3T1wg=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "542D986C5E873DD5",
+        "date": "Tue, 02 Jul 2019 06:56:21 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-esw01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "1Nq4lDb58qWhxiAXjuzNoFFSBrNYO+MHMeVReL1iSq6LwFLVUzn1x6xMDvDXgCe0JGXff4HkAUk=",
+      "RequestId": "D45607DA0D0E10A1",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "1Nq4lDb58qWhxiAXjuzNoFFSBrNYO+MHMeVReL1iSq6LwFLVUzn1x6xMDvDXgCe0JGXff4HkAUk=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "D45607DA0D0E10A1",
+        "date": "Tue, 02 Jul 2019 06:56:21 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-esw01-roadservice-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "vilmYsZMi/OFbeCs4kYRLt+mM0g30bNT+8MmvayUxi05MuoRoeEJnINmniiif9pV19XHAvhCaRE=",
+      "RequestId": "B057278A09B93744",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "vilmYsZMi/OFbeCs4kYRLt+mM0g30bNT+8MmvayUxi05MuoRoeEJnINmniiif9pV19XHAvhCaRE=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "B057278A09B93744",
+        "date": "Tue, 02 Jul 2019 06:56:21 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-esw01-thirdperson-codepipeline-ver",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "76x8jvH9B55o2cSvkOEpcrR9JRlv0A0mB6zj856R7df/0R8IJqsW9XPBWj/9UohXTRmzjE68wzc=",
+      "RequestId": "39EE58D21051460B",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "76x8jvH9B55o2cSvkOEpcrR9JRlv0A0mB6zj856R7df/0R8IJqsW9XPBWj/9UohXTRmzjE68wzc=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "39EE58D21051460B",
+        "date": "Tue, 02 Jul 2019 06:56:22 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-esw01-vpc-0f230be0232fbfd2f",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "co5VqPgaNNgvPjw9nIMwGKaHsKcIANRKtOxlo79LsbHf7Tx7Tb0ENDvvdhhn8F5TjeRTNOXYXYk=",
+      "RequestId": "FA3DC287BB66D725",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "co5VqPgaNNgvPjw9nIMwGKaHsKcIANRKtOxlo79LsbHf7Tx7Tb0ENDvvdhhn8F5TjeRTNOXYXYk=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "FA3DC287BB66D725",
+        "date": "Tue, 02 Jul 2019 06:56:22 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-1y2309wc63299-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "6mYB954J3sbse3E5PgTweL84CIQf530xkgnJMmSlUjhLNIV5OynI/+XekysV127cwI76ZyzwK9A=",
+      "RequestId": "37D7A850B5B73538",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "6mYB954J3sbse3E5PgTweL84CIQf530xkgnJMmSlUjhLNIV5OynI/+XekysV127cwI76ZyzwK9A=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "37D7A850B5B73538",
+        "date": "Tue, 02 Jul 2019 06:56:26 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-951453431396",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "P4LFvfmlIuN8SbdUT8cMLKs2XYseR41quUV7ToghYYivFKqeR4ihH6007sEhwYrnaPsFQBwTUIg=",
+      "RequestId": "98DB16B73AED258E",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "P4LFvfmlIuN8SbdUT8cMLKs2XYseR41quUV7ToghYYivFKqeR4ihH6007sEhwYrnaPsFQBwTUIg=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "98DB16B73AED258E",
+        "date": "Tue, 02 Jul 2019 06:56:27 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "Lowl8And2r4VcHHhaXhkFXSAGESheCUMUbaBlxdx5quaenjKUIdHatIUkUK1/csQqMlyZPlmifM=",
+      "RequestId": "4CEAA7DEB47A2D1D",
+      "HTTPHeaders": {
+        "x-amz-id-2": "Lowl8And2r4VcHHhaXhkFXSAGESheCUMUbaBlxdx5quaenjKUIdHatIUkUK1/csQqMlyZPlmifM=",
+        "date": "Tue, 02 Jul 2019 06:56:27 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "4CEAA7DEB47A2D1D",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-tcu01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "D6OvSDKzgC5NDsIGnAS0Q/YBA1I4ryW7LlS/kfSsvcs3y3bK8NEN4GJSGpJHehUaOI5rv5noBvA=",
+      "RequestId": "D3F18B2FE7A463D9",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "D6OvSDKzgC5NDsIGnAS0Q/YBA1I4ryW7LlS/kfSsvcs3y3bK8NEN4GJSGpJHehUaOI5rv5noBvA=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "D3F18B2FE7A463D9",
+        "date": "Tue, 02 Jul 2019 06:56:28 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-tcu01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "k2DsMhisbtYBGM+nKdovg7RmL2DJW7BzXImKXqeah4RQFUzrecA4WBKRNaBaugOy9lRv+cC/Lz0=",
+      "RequestId": "DDB24F5D75113D00",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "k2DsMhisbtYBGM+nKdovg7RmL2DJW7BzXImKXqeah4RQFUzrecA4WBKRNaBaugOy9lRv+cC/Lz0=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "DDB24F5D75113D00",
+        "date": "Tue, 02 Jul 2019 06:56:28 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cf-templates-8g4qwz0xk18v-ap-northeast-1",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "7de9W/oLCt1VMTUP6aJ8DBr6iUe9WRyUhJ9HkpcKPHWMwvJpEY/NjiuQQ6NohzdMKy8gl3NB0O8=",
+      "RequestId": "F88EADA8B36F1AF9",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "7de9W/oLCt1VMTUP6aJ8DBr6iUe9WRyUhJ9HkpcKPHWMwvJpEY/NjiuQQ6NohzdMKy8gl3NB0O8=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "F88EADA8B36F1AF9",
+        "date": "Tue, 02 Jul 2019 06:56:32 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "cm-members-207429400733",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "OyNNoN7c56pafr250gsVMEqsfJ9b51o8Yyo2IronM9Lq6e7ihn6bV12raRiBXaQYREmfyR3yr0A=",
+      "RequestId": "7FE4057242747A73",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "OyNNoN7c56pafr250gsVMEqsfJ9b51o8Yyo2IronM9Lq6e7ihn6bV12raRiBXaQYREmfyR3yr0A=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "7FE4057242747A73",
+        "date": "Tue, 02 Jul 2019 06:56:33 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": {
+    "Rules": [
+      {
+        "Status": "Enabled",
+        "Prefix": "",
+        "Expiration": {
+          "Days": 400
+        },
+        "ID": "Delete-After-400days"
+      }
+    ],
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "/70Tt+/f3GZFVqio5PFWH7CyhhiMn0+td8D7X+Tyiba2dIc+CwOdjzldSuxSkuYJODkZttl8pag=",
+      "RequestId": "8DBE2CC64FBB1326",
+      "HTTPHeaders": {
+        "x-amz-id-2": "/70Tt+/f3GZFVqio5PFWH7CyhhiMn0+td8D7X+Tyiba2dIc+CwOdjzldSuxSkuYJODkZttl8pag=",
+        "date": "Tue, 02 Jul 2019 06:56:33 GMT",
+        "transfer-encoding": "chunked",
+        "x-amz-request-id": "8DBE2CC64FBB1326",
+        "server": "AmazonS3"
+      }
+    }
+  }
+}
+{
+  "S3BacketName": "inv-ver-vky01-cfn",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "KBCWYnY2exlZkPgA4QO53Cjo7lcZKasv6Ft9cIo1qLf59sIOa9QvyH1Vr7GISntU8dwU9LFuq40=",
+      "RequestId": "DD7DC00D62B299EF",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "KBCWYnY2exlZkPgA4QO53Cjo7lcZKasv6Ft9cIo1qLf59sIOa9QvyH1Vr7GISntU8dwU9LFuq40=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "DD7DC00D62B299EF",
+        "date": "Tue, 02 Jul 2019 06:56:33 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}
+{
+  "S3BacketName": "inv-ver-vky01-manage-metrics-alarm",
+  "AccessLogging": {
+    "ResponseMetadata": {
+      "HTTPStatusCode": 200,
+      "RetryAttempts": 0,
+      "HostId": "LaQglvHFlpaP/51C116cRb25FlkvJVA5pPaOmIxTeD2+3GQD6gGMdveNyO+DxESyoxHQF2usKTg=",
+      "RequestId": "AAF8B78ADF1B7AE8",
+      "HTTPHeaders": {
+        "content-length": "289",
+        "x-amz-id-2": "LaQglvHFlpaP/51C116cRb25FlkvJVA5pPaOmIxTeD2+3GQD6gGMdveNyO+DxESyoxHQF2usKTg=",
+        "server": "AmazonS3",
+        "x-amz-request-id": "AAF8B78ADF1B7AE8",
+        "date": "Tue, 02 Jul 2019 06:56:34 GMT",
+        "content-type": "application/xml"
+      }
+    }
+  },
+  "BacketLifeCycleConf": null
+}

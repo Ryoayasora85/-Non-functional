@@ -1,0 +1,12 @@
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-htc01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-sub01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-cer01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-des01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-agw01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-vdm01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-wfi01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-esp01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-rmt01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-esw01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-tcu01-monitor-lambda-repo
+https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/INV-ver-vky01-monitor-lambda-repo

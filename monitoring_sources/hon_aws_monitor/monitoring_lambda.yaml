@@ -1,0 +1,173 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "monitoring-lambda.yaml"
+Parameters: 
+  EnvironmentName: 
+    Default: ver
+    Description: "Environment Name"
+    Type: String
+  MicroServiceName: 
+    Default: cer01
+    Description: "MicroService Name"
+    Type: String
+  S3Buckets: 
+    Default: "inv-ver-cer01-cfn"
+    Description: "source s3 backet name"
+    Type: String
+  S3Prefix:
+    Default: "monitor-config/"
+    Description: "source s3 backet file prefix"
+    Type: String
+  iniFileName: 
+    Default: "monitor.json"
+    Description: "scenario file name"
+    Type: String
+  scenarioSourceLogGroup:
+    Default: "/aws/codebuild/codecommit_bk"
+    Description: "Scenario CWL log group name"
+    Type: "String"
+  scenarioFilterPattern:
+    Default: ""
+    Description: "Scenario Monitor CWL log FilterPattern"
+    Type: "String"
+  programSourceLogGroup:
+    Default: "/aws/codebuild/ivn_lambda"
+    Description: "program CWL log group name"
+    Type: "String"
+  programFilterPattern:
+    Default: ?"ERROR" ?"FATAL" ?"WARN"
+    Description: "program Monitor CWL log FilterPattern"
+    Type: "String"
+Resources:
+  IAMRole:
+    Type: "AWS::IAM::Role"
+    Properties: 
+      AssumeRolePolicyDocument: 
+        Version: "2012-10-17"
+        Statement: 
+          - Effect: Allow
+            Principal: 
+              Service: "lambda.amazonaws.com"
+            Action: "sts:AssumeRole"
+      ManagedPolicyArns: 
+        - "arn:aws:iam::aws:policy/AmazonSNSFullAccess"
+      Path: "/"
+      Policies:
+        - PolicyName: monitor_lambda_policy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - cloudwatch:*
+                  - logs:*
+                  - s3:Get*
+                  - s3:List*
+                Resource: "*"
+      RoleName: !Sub inv-${EnvironmentName}-${MicroServiceName}-monitoring-lambda-role
+  LambdaLayer:
+    Type: "AWS::Lambda::LayerVersion"
+    Properties:
+      CompatibleRuntimes: 
+        - python3.6
+      Content: 
+        S3Bucket:
+          Ref: S3Buckets
+        S3Key: CloudwatchAlarm/monitor_mod.zip
+      Description: "monitor_lambda_modules"
+      LayerName: monitor_module
+  LambdaFunction: 
+    DependsOn: 
+      - IAMRole
+    Type: "AWS::Lambda::Function"
+    Properties: 
+      Code: src/handlers/my_lambda_function       
+      FunctionName: !Sub inv-${EnvironmentName}-${MicroServiceName}-monitoring_common_lambda
+      Handler: lambda_function.lambda_handler
+      Environment: 
+        Variables: 
+          ENV: 
+            Ref: EnvironmentName
+          STG: 
+            Ref: MicroServiceName
+          fileName:
+            Ref: iniFileName
+          s3Bucket:
+            Ref: S3Buckets
+          s3keyPrefix:
+            Ref: S3Prefix
+      Role: 
+        "Fn::GetAtt": 
+          - IAMRole
+          - Arn
+      Runtime: "python3.6"
+      MemorySize: 512
+      Timeout: 300
+      Layers:
+        - !Ref LambdaLayer
+  LambdaPermission: 
+    Type: "AWS::Lambda::Permission"
+    Properties: 
+      Action: "lambda:InvokeFunction"
+      FunctionName: 
+        "Fn::GetAtt": 
+          - LambdaFunction
+          - Arn
+      Principal: !Sub "sns.amazonaws.com"
+      SourceArn: !Sub arn:aws:sns:${AWS::Region}:${AWS::AccountId}:inv-${EnvironmentName}-${MicroServiceName}
+  ScenarioSubscriptionFilter:
+    DependsOn:
+      - ScenarioLambdaInvokePermission
+    Type: "AWS::Logs::SubscriptionFilter"
+    Properties:
+      LogGroupName: !Ref scenarioSourceLogGroup
+      FilterPattern: !Ref scenarioFilterPattern
+      DestinationArn: !Join
+        - ''
+        - - !Sub 'arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:'
+          - !Sub inv-${EnvironmentName}-${MicroServiceName}-monitoring_common_lambda
+  ScenarioLambdaInvokePermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      FunctionName:
+        "Fn::GetAtt": 
+          - LambdaFunction
+          - Arn
+      Action: "lambda:InvokeFunction"
+      Principal: !Sub "logs.amazonaws.com"
+      SourceAccount: !Ref AWS::AccountId
+      SourceArn: !Sub "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:${scenarioSourceLogGroup}:*"
+  ProgramSubscriptionFilter:
+    DependsOn:
+      - ProgramLambdaInvokePermission
+    Type: "AWS::Logs::SubscriptionFilter"
+    Properties:
+      LogGroupName: !Ref programSourceLogGroup
+      FilterPattern: !Ref programFilterPattern
+      DestinationArn: !Join
+        - ''
+        - - !Sub 'arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:'
+          - !Sub inv-${EnvironmentName}-${MicroServiceName}-monitoring_common_lambda
+  ProgramLambdaInvokePermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      FunctionName:
+        "Fn::GetAtt": 
+          - LambdaFunction
+          - Arn
+      Action: "lambda:InvokeFunction"
+      Principal: !Sub "logs.amazonaws.com"
+      SourceAccount: !Ref AWS::AccountId
+      SourceArn: !Sub "arn:aws:logs:${AWS::Region}:${AWS::AccountId}:log-group:${programSourceLogGroup}:*"
+Outputs: 
+  IAMRole: 
+    Description: "IAM Role Name"
+    Value: 
+      Ref: IAMRole
+  SNSTopic: 
+    Description: "SNS Topic Name"
+    Value: 
+      !Sub arn:aws:sns:${AWS::Region}:${AWS::AccountId}:inv-${EnvironmentName}-${MicroServiceName}
+  LambdaFunction: 
+    Description: "Lambda Function Name"
+    Value: 
+      Ref: LambdaFunction

@@ -1,0 +1,548 @@
+{
+    "errorcode_bash": [
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "M_ERR001", 
+            "errorcode": "INV-AWS-FS-01", 
+            "internal_err_msg": "S3bucketよりJMeterのシナリオ定義取得コマンドエラー", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "M_ERR002", 
+            "errorcode": "INV-AWS-FS-02", 
+            "internal_err_msg": "S3bucketよりJMeterのシナリオ定義 AccessDenied", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "M_ERR003", 
+            "errorcode": "INV-AWS-FS-03", 
+            "internal_err_msg": "S3bucketよりfilter定義を取得コマンドエラー", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "M_ERR004", 
+            "errorcode": "INV-AWS-FS-04", 
+            "internal_err_msg": "S3bucketよりfilter定義 AccessDenied", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "M_ERR005", 
+            "errorcode": "INV-AWS-FS-05", 
+            "internal_err_msg": "jmeter.sh:コマンドエラー", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "M_ERR006", 
+            "errorcode": "INV-AWS-FS-06", 
+            "internal_err_msg": "resultlog処理:不要文字削除失敗", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "summarylog処理:時間行取得失敗", 
+            "internal_err_code": "M_ERR007", 
+            "errorcode": "INV-AWS-FS-07", 
+            "internal_err_msg": "summarylog処理:時間行取得失敗", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "F_ERR008", 
+            "errorcode": "INV-AWS-FS-08", 
+            "internal_err_msg": "func_step_stn_out:変数取得失敗", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "F_ERR009", 
+            "errorcode": "INV-AWS-FS-09", 
+            "internal_err_msg": "func_summary_stn_out:変数取得失敗", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "F_ERR010", 
+            "errorcode": "buzz1FS10", 
+            "internal_err_msg": "func_summary_stn_out:SUMMARY_RULE取得エラー", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "F_ERR011", 
+            "errorcode": "INV-AWS-FS-11", 
+            "internal_err_msg": "JMeterのシナリオ定義rule定義エラー:JMeterのシナリオ定義を追加確認してください", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }, 
+        {
+            "description": "bash内部エラー", 
+            "internal_err_code": "M_ERR012", 
+            "errorcode": "INV-AWS-FS-12", 
+            "internal_err_msg": "JMeterのシナリオ定義 rule定義エラー:JMeterのシナリオ定義を確認ください", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "monitor": "bash_err"
+        }
+    ], 
+    "htc01_scenario01_urlcheck02": [
+        {
+            "errorcode": "INV-AWS-S1-04", 
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "htc01_scenario01_urlcheck02呼び出しにてHTTPレスポンスエラーを検知しました", 
+            "rule": "200,!=,4,if", 
+            "monitor": "scenario"
+        }, 
+        {
+            "errorcode": "INV-AWS-S1-05", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification"
+            }, 
+            "description": "htc01_scenario01_urlcheck02呼び出しにて想定した文字列を含まないエラーを検知しました", 
+            "rule": "true,!=,8,if", 
+            "monitor": "scenario"
+        }, 
+        {
+            "errorcode": "INV-AWS-S1-06", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "htc01_scenario01_urlcheck02呼び出しにて処理時間の一定時間超過を検知しました", 
+            "rule": "Non HTTP response message: Read timed out,==,5,msg", 
+            "monitor": "scenario"
+        }
+    ], 
+    "summary_htc01_scenario01": [
+        {
+            "errorcode": "INV-AWS-S1-99", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "summary_htc01_scenario01にてシナリオ実行時間の超過を検知しました", 
+            "rule": "00:01:00,summary", 
+            "monitor": "scenario"
+        }
+    ], 
+    "htc01_scenario01_urlcheck01": [
+        {
+            "errorcode": "INV-AWS-S1-01", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "htc01_scenario01_urlcheck01呼び出しにてHTTPレスポンスエラーを検知しました", 
+            "rule": "200,!=,4,if", 
+            "monitor": "scenario"
+        }, 
+        {
+            "errorcode": "INV-AWS-S1-02", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "htc01_scenario01_urlcheck01呼び出しにて想定した文字列を含まないエラーを検知しました", 
+            "rule": "true,!=,8,if", 
+            "monitor": "scenario"
+        }, 
+        {
+            "errorcode": "INV-AWS-S1-03", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "htc01_scenario01_urlcheck01呼び出しにて処理時間の一定時間超過を検知しました", 
+            "rule": "Non HTTP response message: Read timed out,==,5,msg", 
+            "monitor": "scenario"
+        }
+    ], 
+    "Metrics": [
+        {
+            "errorcode": "xxxxxxx", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "xxxxxxx", 
+            "rule": "xxxxxxx", 
+            "monitor": "xxxxxxx"
+        }
+    ], 
+    "Application": [
+        {
+            "errorcode": "ER001", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ER002", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ER003", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ER004", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ER005", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ER006", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ER007", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ER008", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ER014", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ERR-004", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ERR-005", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ERR-007", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ERR-131", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ERR-132", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "ERR-264", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA001", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA002", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA003", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA004", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA005", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA006", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA007", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA008", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA009", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA010", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA011", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA012", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA013", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA020", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA021", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FA022", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FATAL-001", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FATAL-133", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FATAL-231", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FATAL-232", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FATAL-261", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FATAL-263", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FATAL-301", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }, 
+        {
+            "errorcode": "FATAL-302", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "プログラム監視でエラーを検知しました"
+        }
+    ], 
+    "summary_htc01_scenario02": [
+        {
+            "errorcode": "INV-AWS-S2-99", 
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:686753218709:inv-ver-htc01-notification", 
+                "SLACK": "https://hooks.slack.com/services/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"
+            }, 
+            "description": "summary_htc01_scenario02にてシナリオ実行時間の超過を検知しました", 
+            "rule": "00:01:00,summary", 
+            "monitor": "scenario"
+        }
+    ]
+}

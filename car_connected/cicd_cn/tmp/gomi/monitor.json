@@ -1,0 +1,406 @@
+{
+    "cer01_scenario01_urlcheck01": [
+        {
+            "errorcode": "INV-AWS-S1-01",
+            "description": "cer01_scenario01_urlcheck01呼び出しにてHTTPレスポンスエラーを検知しました",
+            "monitor": "scenario",
+            "rule": "200,!=,4,if",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-S1-02",
+            "description": "cer01_scenario01_urlcheck01呼び出しにて想定した文字列を含まないエラーを検知しました",
+            "monitor": "scenario",
+            "rule": "true,!=,8,if",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-S1-03",
+            "description": "cer01_scenario01_urlcheck01呼び出しにて処理時間の一定時間超過を検知しました",
+            "monitor": "scenario",
+            "rule": "Non HTTP response message: Read timed out,==,5,msg",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        }
+    ],
+    "cer01_scenario01_urlcheck02": [
+        {
+            "errorcode": "INV-AWS-S1-04",
+            "description": "cer01_scenario01_urlcheck02呼び出しにてHTTPレスポンスエラーを検知しました",
+            "monitor": "scenario",
+            "rule": "200,!=,4,if",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-S1-05",
+            "description": "cer01_scenario01_urlcheck02呼び出しにて想定した文字列を含まないエラーを検知しました",
+            "monitor": "scenario",
+            "rule": "true,!=,8,if",
+            "contact": {
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-S1-06",
+            "description": "cer01_scenario01_urlcheck02呼び出しにて処理時間の一定時間超過を検知しました",
+            "monitor": "scenario",
+            "rule": "Non HTTP response message: Read timed out,==,5,msg",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        }
+    ],
+    "summary_cer01_scenario01": [
+        {
+            "errorcode": "INV-AWS-S1-99",
+            "description": "summary_cer01_scenario01にてシナリオ実行時間の超過を検知しました",
+            "monitor": "scenario",
+            "rule": "00:01:00,summary",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        }
+    ],
+    "summary_cer01_scenario02": [
+        {
+            "errorcode": "INV-AWS-S2-99",
+            "description": "summary_cer01_scenario02にてシナリオ実行時間の超過を検知しました",
+            "monitor": "scenario",
+            "rule": "00:01:00,summary",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        }
+    ],
+    "errorcode_bash": [
+        {
+            "errorcode": "INV-AWS-FS-01",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "M_ERR001",
+            "internal_err_msg": "S3bucketよりJMeterのシナリオ定義取得コマンドエラー",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-02",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "M_ERR002",
+            "internal_err_msg": "S3bucketよりJMeterのシナリオ定義 AccessDenied",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-03",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "M_ERR003",
+            "internal_err_msg": "S3bucketよりfilter定義を取得コマンドエラー",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-04",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "M_ERR004",
+            "internal_err_msg": "S3bucketよりfilter定義 AccessDenied",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-05",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "M_ERR005",
+            "internal_err_msg": "jmeter.sh:コマンドエラー",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-06",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "M_ERR006",
+            "internal_err_msg": "resultlog処理:不要文字削除失敗",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-07",
+            "description": "summarylog処理:時間行取得失敗",
+            "monitor": "bash_err",
+            "internal_err_code": "M_ERR007",
+            "internal_err_msg": "summarylog処理:時間行取得失敗",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-08",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "F_ERR008",
+            "internal_err_msg": "func_step_stn_out:変数取得失敗",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-09",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "F_ERR009",
+            "internal_err_msg": "func_summary_stn_out:変数取得失敗",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "cer01FS10",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "F_ERR010",
+            "internal_err_msg": "func_summary_stn_out:SUMMARY_RULE取得エラー",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-11",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "F_ERR011",
+            "internal_err_msg": "JMeterのシナリオ定義rule定義エラー:JMeterのシナリオ定義を追加確認してください",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "INV-AWS-FS-12",
+            "description": "bash内部エラー",
+            "monitor": "bash_err",
+            "internal_err_code": "M_ERR012",
+            "internal_err_msg": "JMeterのシナリオ定義 rule定義エラー:JMeterのシナリオ定義を確認ください",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        }
+    ],
+    "Application": [
+        {
+            "errorcode": "ER001",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "ER002",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "ER003",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "FATAL-001",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "ERR-004",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "ERR-005",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "ERR-007",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "ERR-131",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "ERR-132",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "FATAL-133",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },
+        {
+            "errorcode": "FATAL-231",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },	
+        {
+            "errorcode": "FATAL-232",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },	
+        {
+            "errorcode": "FATAL-261",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },	
+        {
+            "errorcode": "FATAL-263",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },	
+        {
+            "errorcode": "ERR-264",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },	
+        {
+            "errorcode": "FATAL-301",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        },			
+        {
+            "errorcode": "FATAL-302",
+            "description": "プログラム監視でエラーを検知しました",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        }	
+    ],
+    "Metrics":[
+        {
+            "errorcode": "xxxxxxx",
+            "description": "xxxxxxx",
+            "monitor": "xxxxxxx",
+            "rule": "xxxxxxx",
+            "contact": {
+                "SLACK": "https://hooks.slack.com/services/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",
+                "Mail": "arn:aws:sns:ap-northeast-1:649551049546:inv-prd-com01-notification"
+            }
+        }
+    ]
+}
